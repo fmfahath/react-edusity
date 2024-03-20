@@ -28,3 +28,32 @@
     margin: 10px auto 20px;
     line-height: 1.5;
 }
+
+/* responsive */
+
+@media (max-width: 840px) {
+    .hero-text h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 710px) {
+    .hero-text h1 {
+        font-size: 45px;
+    }
+
+    .hero-text p {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .hero-text p {
+        font-size: 17px;
+        max-width: 400px;
+    }
+}
