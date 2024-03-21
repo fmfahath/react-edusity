@@ -13,3 +13,17 @@
     padding: 15px 0;
     cursor: pointer;
 }
+
+/* media query */
+@media (max-width: 650px) {
+    .footer {
+        margin: 10px auto;
+        flex-direction: column;
+    }
+
+    .footer ul li {
+        display: block;
+        margin-left: 0;
+        padding: 5px 0;
+    }
+}
