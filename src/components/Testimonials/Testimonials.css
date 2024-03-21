@@ -73,3 +73,63 @@
 .user-info h3 {
     color: #212ea0;
 }
+
+/* media qury */
+@media (max-width: 800px) {
+    .testimonials {
+        padding: 0 40px;
+    }
+
+    .back-btn,
+    .next-btn {
+        width: 40px;
+        padding: 10px;
+    }
+
+    .back-btn {
+        left: -2%;
+    }
+
+    .next-btn {
+        right: -2%;
+    }
+
+    .user-info {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .user-info h3,
+    .user-info p {
+        text-align: center;
+    }
+
+    .slide img {
+        width: 55px;
+    }
+
+    .slider ul li {
+        /* padding: 10px; */
+    }
+}
+
+@media (max-width: 650px) {
+
+    .back-btn,
+    .next-btn {
+        width: 35px;
+        padding: 10px;
+    }
+
+    .slider ul {
+        width: 400%;
+    }
+
+    .slide p {
+        text-align: center;
+    }
+
+    .slider ul li {
+        /* height: auto; */
+    }
+}
