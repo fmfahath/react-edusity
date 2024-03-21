@@ -62,3 +62,24 @@
     display: block;
     margin: 20px 0;
 }
+
+/* media query */
+@media (max-width: 650px) {
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact-col {
+        /* width: 100%; */
+        flex-basis: 100%;
+    }
+
+    .contact-col form {
+        margin-top: 50px;
+    }
+
+    .contact-col input,
+    .contact-col textarea {
+        display: inline-block;
+    }
+}
